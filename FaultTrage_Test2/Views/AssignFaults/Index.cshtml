@@ -1,0 +1,88 @@
+﻿@model IEnumerable<FaultTrage_Test2.Fault>
+
+@{
+    ViewBag.Title = "Index";
+    var id = "";
+}
+
+<form id="@id">
+    <h2>Sort Faults</h2>
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        <input name="id" value="@id" class="form-control" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Sort" class="btn btn-primary" />
+        @*@Html.ActionLink("Details", "Details", new { id = @searchId })*@
+    </div>
+</form>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FaultType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FaultSeverity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FaultComponent)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FaultEventDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FaultPlatform)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FaultImpact)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TicketStatus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FaultEscalationTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SLA1.SLAId)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaultType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaultSeverity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaultComponent)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaultEventDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaultPlatform)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaultImpact)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TicketStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaultEscalationTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SLA1.SLAId)
+            </td>
+            <td>
+                @Html.ActionLink("Assign", "Assign", new { id = item.FaultId })
+            </td>
+        </tr>
+    }
+
+</table>

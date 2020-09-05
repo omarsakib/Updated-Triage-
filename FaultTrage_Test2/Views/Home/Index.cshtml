@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>A Bug Triaging Tool</h1>
+    <p class="lead">A tool that will release pressure from project managers end with the highest efficiency in day to day Bug management </p>
+
+</div>
+<div class="row">
+    <div class="row">
+        <div class="col-md-4">
+            <h2>@Html.ActionLink("Faults", "Index", "Faults")</h2>
+        </div>
+        
+        <div class="col-md-4">
+            <h2>@Html.ActionLink("Impact", "Index", "SLAs")</h2>
+        </div>
+        <div class="col-md-4">
+            <h2>@Html.ActionLink("Assign Faults", "Index", "AssignFaults")</h2>
+        </div>
+        
+        <div class="col-md-4">
+            <h2>@Html.ActionLink("Troubleshooter Designation", "Index", "Designations")</h2>
+        </div>
+        <div class="col-md-4">
+            <h2>@Html.ActionLink("Impact Information", "Index", "ImpactInfoes")</h2>
+        </div>
+        <div class="col-md-4">
+            <h2>@Html.ActionLink("Team Info", "Index", "Teams")</h2>
+        </div>
+
+      
+    </div>
+</div>

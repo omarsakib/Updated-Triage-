@@ -1,0 +1,75 @@
+﻿@model IEnumerable<FaultTrage_Test2.Troubleshooter>
+
+@{
+    ViewBag.Title = "Troubleshooter";
+}
+
+<h2>Troubleshooter Profile</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TroubleshooterName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TroubleshooterPhoneNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.YearOfExperience)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NumberofSolves)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Designation.Designation1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FaultType.FaultType1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Team.TeamName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TroubleshooterManager.ManagerName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TroubleshooterName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TroubleshooterPhoneNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.YearOfExperience)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumberofSolves)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Designation.Designation1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FaultType.FaultType1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Team.TeamName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TroubleshooterManager.ManagerName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.TroubleshooterId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.TroubleshooterId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.TroubleshooterId })
+        </td>
+    </tr>
+}
+
+</table>

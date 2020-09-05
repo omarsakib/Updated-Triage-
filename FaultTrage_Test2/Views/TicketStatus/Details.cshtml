@@ -1,0 +1,42 @@
+﻿@model FaultTrage_Test2.TicketStatu
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TicketStatu</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TicketStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TicketStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TicketStatus1.TicketStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TicketStatus1.TicketStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TicketStatu1.TicketStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TicketStatu1.TicketStatus)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TicketStausId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

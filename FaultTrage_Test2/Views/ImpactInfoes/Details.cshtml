@@ -1,0 +1,66 @@
+﻿@model FaultTrage_Test2.ImpactInfo
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ImpactInfo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TicketRaisedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TicketRaisedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TicketClosingDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TicketClosingDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fault.FaultSeverity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fault.FaultSeverity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Team.TeamName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Team.TeamName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TicketStatu.TicketStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TicketStatu.TicketStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Troubleshooter.TroubleshooterName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Troubleshooter.TroubleshooterName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Impactid }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

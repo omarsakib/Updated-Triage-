@@ -1,0 +1,34 @@
+﻿@model FaultTrage_Test2.TroubleshooterManager
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TroubleshooterManager</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ManagerName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ManagerName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ManagerDesignation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ManagerDesignation)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TroubleshooterManagerId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

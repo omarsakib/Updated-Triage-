@@ -1,0 +1,45 @@
+﻿@model IEnumerable<FaultTrage_Test2.TicketStatu>
+
+@{
+    ViewBag.Title = "Ticket Status";
+}
+
+<h2>Ticket Status</h2>
+
+<p>
+    @Html.ActionLink("Create New Ticket Status", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TicketStatus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TicketStatus1.TicketStatus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TicketStatu1.TicketStatus)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TicketStatus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TicketStatus1.TicketStatus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TicketStatu1.TicketStatus)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.TicketStausId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.TicketStausId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.TicketStausId })
+        </td>
+    </tr>
+}
+
+</table>

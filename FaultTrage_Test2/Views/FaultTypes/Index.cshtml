@@ -1,0 +1,33 @@
+﻿@model IEnumerable<FaultTrage_Test2.FaultType>
+
+@{
+    ViewBag.Title = "Fault Type Profile";
+}
+
+<h2>Fault Type</h2>
+
+<p>
+    @Html.ActionLink("Create New Type of Fault", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FaultType1)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FaultType1)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.FaultTypeId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.FaultTypeId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.FaultTypeId })
+        </td>
+    </tr>
+}
+
+</table>

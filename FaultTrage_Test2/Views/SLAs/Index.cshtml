@@ -1,0 +1,39 @@
+﻿@model IEnumerable<FaultTrage_Test2.SLA>
+
+@{
+    ViewBag.Title = "SLA";
+}
+
+<h2>SLA</h2>
+
+<p>
+    @Html.ActionLink("Create New SLA Profile", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TimeForTroubleshooting)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FaultType1.FaultType1)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TimeForTroubleshooting)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FaultType1.FaultType1)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.SLAId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.SLAId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.SLAId })
+        </td>
+    </tr>
+}
+
+</table>

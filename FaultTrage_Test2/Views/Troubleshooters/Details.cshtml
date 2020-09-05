@@ -1,0 +1,82 @@
+﻿@model FaultTrage_Test2.Troubleshooter
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Troubleshooter</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TroubleshooterName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TroubleshooterName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TroubleshooterPhoneNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TroubleshooterPhoneNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.YearOfExperience)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.YearOfExperience)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumberofSolves)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumberofSolves)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Designation.Designation1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Designation.Designation1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FaultType.FaultType1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FaultType.FaultType1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Team.TeamName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Team.TeamName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TroubleshooterManager.ManagerName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TroubleshooterManager.ManagerName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TroubleshooterId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

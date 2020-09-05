@@ -1,0 +1,63 @@
+﻿@model IEnumerable<FaultTrage_Test2.ImpactInfo>
+
+@{
+    ViewBag.Title = "Impact Info";
+}
+
+<h2>Impact Info</h2>
+
+<p>
+    @Html.ActionLink("Create New Info of Impact", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TicketRaisedDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TicketClosingDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fault.FaultSeverity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Team.TeamName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TicketStatu.TicketStatus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Troubleshooter.TroubleshooterName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TicketRaisedDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TicketClosingDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Fault.FaultSeverity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Team.TeamName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TicketStatu.TicketStatus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Troubleshooter.TroubleshooterName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Impactid }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Impactid }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Impactid })
+        </td>
+    </tr>
+}
+
+</table>

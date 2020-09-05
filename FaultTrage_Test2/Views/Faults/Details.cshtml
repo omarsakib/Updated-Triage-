@@ -1,0 +1,90 @@
+﻿@model FaultTrage_Test2.Fault
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Fault</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FaultType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FaultType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FaultSeverity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FaultSeverity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FaultComponent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FaultComponent)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FaultEventDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FaultEventDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FaultPlatform)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FaultPlatform)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FaultImpact)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FaultImpact)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TicketStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TicketStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FaultEscalationTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FaultEscalationTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SLA1.SLAId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SLA1.SLAId)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.FaultId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
