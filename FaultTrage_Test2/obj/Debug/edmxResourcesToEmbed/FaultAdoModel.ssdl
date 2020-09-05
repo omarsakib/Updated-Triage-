@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FaultManagementModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Designation">
+    <Key>
+      <PropertyRef Name="DesignationId" />
+    </Key>
+    <Property Name="DesignationId" Type="int" Nullable="false" />
+    <Property Name="Designation" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Fault">
+    <Key>
+      <PropertyRef Name="FaultId" />
+    </Key>
+    <Property Name="FaultId" Type="int" Nullable="false" />
+    <Property Name="FaultType" Type="int" Nullable="false" />
+    <Property Name="FaultSeverity" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="FaultComponent" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="FaultEventDate" Type="datetime" Nullable="false" />
+    <Property Name="SLA" Type="int" Nullable="false" />
+    <Property Name="FaultPlatform" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="FaultImpact" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="TicketStatus" Type="int" Nullable="false" />
+    <Property Name="FaultEscalationTime" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FaultType">
+    <Key>
+      <PropertyRef Name="FaultTypeId" />
+    </Key>
+    <Property Name="FaultTypeId" Type="int" Nullable="false" />
+    <Property Name="FaultType" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ImpactInfo">
+    <Key>
+      <PropertyRef Name="Impactid" />
+    </Key>
+    <Property Name="Impactid" Type="int" Nullable="false" />
+    <Property Name="TicketId" Type="int" Nullable="false" />
+    <Property Name="TeamId" Type="int" Nullable="false" />
+    <Property Name="FaultId" Type="int" Nullable="false" />
+    <Property Name="TroubleshooterId" Type="int" Nullable="false" />
+    <Property Name="TicketRaisedDate" Type="datetime" Nullable="false" />
+    <Property Name="TicketClosingDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SLA">
+    <Key>
+      <PropertyRef Name="SLAId" />
+    </Key>
+    <Property Name="SLAId" Type="int" Nullable="false" />
+    <Property Name="FaultType" Type="int" Nullable="false" />
+    <Property Name="TimeForTroubleshooting" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Team">
+    <Key>
+      <PropertyRef Name="TeamId" />
+    </Key>
+    <Property Name="TeamId" Type="int" Nullable="false" />
+    <Property Name="TeamName" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TicketStatus">
+    <Key>
+      <PropertyRef Name="TicketStausId" />
+    </Key>
+    <Property Name="TicketStausId" Type="int" Nullable="false" />
+    <Property Name="TicketStatus" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Troubleshooter">
+    <Key>
+      <PropertyRef Name="TroubleshooterId" />
+    </Key>
+    <Property Name="TroubleshooterId" Type="int" Nullable="false" />
+    <Property Name="TroubleshooterName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="TroubleshooterDesignation" Type="int" Nullable="false" />
+    <Property Name="TroubleshooterTeam" Type="int" Nullable="false" />
+    <Property Name="TroubleshooterPhoneNo" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="TroubleshooterExpertise" Type="int" Nullable="false" />
+    <Property Name="YearOfExperience" Type="int" Nullable="false" />
+    <Property Name="ManagerofTroubleshooter" Type="int" Nullable="false" />
+    <Property Name="NumberofSolves" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TroubleshooterManager">
+    <Key>
+      <PropertyRef Name="TroubleshooterManagerId" />
+    </Key>
+    <Property Name="TroubleshooterManagerId" Type="int" Nullable="false" />
+    <Property Name="ManagerName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ManagerDesignation" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Fault_SLA">
+    <End Role="SLA" Type="Self.SLA" Multiplicity="1" />
+    <End Role="Fault" Type="Self.Fault" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SLA">
+        <PropertyRef Name="SLAId" />
+      </Principal>
+      <Dependent Role="Fault">
+        <PropertyRef Name="SLA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ImpactInfo_Fault">
+    <End Role="Fault" Type="Self.Fault" Multiplicity="1" />
+    <End Role="ImpactInfo" Type="Self.ImpactInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Fault">
+        <PropertyRef Name="FaultId" />
+      </Principal>
+      <Dependent Role="ImpactInfo">
+        <PropertyRef Name="FaultId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ImpactInfo_Team">
+    <End Role="Team" Type="Self.Team" Multiplicity="1" />
+    <End Role="ImpactInfo" Type="Self.ImpactInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Team">
+        <PropertyRef Name="TeamId" />
+      </Principal>
+      <Dependent Role="ImpactInfo">
+        <PropertyRef Name="TeamId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ImpactInfo_TicketStatus">
+    <End Role="TicketStatus" Type="Self.TicketStatus" Multiplicity="1" />
+    <End Role="ImpactInfo" Type="Self.ImpactInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TicketStatus">
+        <PropertyRef Name="TicketStausId" />
+      </Principal>
+      <Dependent Role="ImpactInfo">
+        <PropertyRef Name="TicketId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ImpactInfo_Troubleshooter">
+    <End Role="Troubleshooter" Type="Self.Troubleshooter" Multiplicity="1" />
+    <End Role="ImpactInfo" Type="Self.ImpactInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Troubleshooter">
+        <PropertyRef Name="TroubleshooterId" />
+      </Principal>
+      <Dependent Role="ImpactInfo">
+        <PropertyRef Name="TroubleshooterId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SLA_FaultType">
+    <End Role="FaultType" Type="Self.FaultType" Multiplicity="1" />
+    <End Role="SLA" Type="Self.SLA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FaultType">
+        <PropertyRef Name="FaultTypeId" />
+      </Principal>
+      <Dependent Role="SLA">
+        <PropertyRef Name="FaultType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TicketStatus_TicketStatus">
+    <End Role="TicketStatus" Type="Self.TicketStatus" Multiplicity="1" />
+    <End Role="TicketStatus1" Type="Self.TicketStatus" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="TicketStatus">
+        <PropertyRef Name="TicketStausId" />
+      </Principal>
+      <Dependent Role="TicketStatus1">
+        <PropertyRef Name="TicketStausId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Troubleshooter_Designation">
+    <End Role="Designation" Type="Self.Designation" Multiplicity="1" />
+    <End Role="Troubleshooter" Type="Self.Troubleshooter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Designation">
+        <PropertyRef Name="DesignationId" />
+      </Principal>
+      <Dependent Role="Troubleshooter">
+        <PropertyRef Name="TroubleshooterDesignation" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Troubleshooter_FaultType">
+    <End Role="FaultType" Type="Self.FaultType" Multiplicity="1" />
+    <End Role="Troubleshooter" Type="Self.Troubleshooter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FaultType">
+        <PropertyRef Name="FaultTypeId" />
+      </Principal>
+      <Dependent Role="Troubleshooter">
+        <PropertyRef Name="TroubleshooterExpertise" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Troubleshooter_Team">
+    <End Role="Team" Type="Self.Team" Multiplicity="1" />
+    <End Role="Troubleshooter" Type="Self.Troubleshooter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Team">
+        <PropertyRef Name="TeamId" />
+      </Principal>
+      <Dependent Role="Troubleshooter">
+        <PropertyRef Name="TroubleshooterTeam" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Troubleshooter_TroubleshooterManager">
+    <End Role="TroubleshooterManager" Type="Self.TroubleshooterManager" Multiplicity="1" />
+    <End Role="Troubleshooter" Type="Self.Troubleshooter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TroubleshooterManager">
+        <PropertyRef Name="TroubleshooterManagerId" />
+      </Principal>
+      <Dependent Role="Troubleshooter">
+        <PropertyRef Name="ManagerofTroubleshooter" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="FaultManagementModelStoreContainer">
+    <EntitySet Name="Designation" EntityType="Self.Designation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Fault" EntityType="Self.Fault" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FaultType" EntityType="Self.FaultType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ImpactInfo" EntityType="Self.ImpactInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SLA" EntityType="Self.SLA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Team" EntityType="Self.Team" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TicketStatus" EntityType="Self.TicketStatus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Troubleshooter" EntityType="Self.Troubleshooter" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TroubleshooterManager" EntityType="Self.TroubleshooterManager" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Fault_SLA" Association="Self.FK_Fault_SLA">
+      <End Role="SLA" EntitySet="SLA" />
+      <End Role="Fault" EntitySet="Fault" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ImpactInfo_Fault" Association="Self.FK_ImpactInfo_Fault">
+      <End Role="Fault" EntitySet="Fault" />
+      <End Role="ImpactInfo" EntitySet="ImpactInfo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ImpactInfo_Team" Association="Self.FK_ImpactInfo_Team">
+      <End Role="Team" EntitySet="Team" />
+      <End Role="ImpactInfo" EntitySet="ImpactInfo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ImpactInfo_TicketStatus" Association="Self.FK_ImpactInfo_TicketStatus">
+      <End Role="TicketStatus" EntitySet="TicketStatus" />
+      <End Role="ImpactInfo" EntitySet="ImpactInfo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ImpactInfo_Troubleshooter" Association="Self.FK_ImpactInfo_Troubleshooter">
+      <End Role="Troubleshooter" EntitySet="Troubleshooter" />
+      <End Role="ImpactInfo" EntitySet="ImpactInfo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SLA_FaultType" Association="Self.FK_SLA_FaultType">
+      <End Role="FaultType" EntitySet="FaultType" />
+      <End Role="SLA" EntitySet="SLA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TicketStatus_TicketStatus" Association="Self.FK_TicketStatus_TicketStatus">
+      <End Role="TicketStatus" EntitySet="TicketStatus" />
+      <End Role="TicketStatus1" EntitySet="TicketStatus" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Troubleshooter_Designation" Association="Self.FK_Troubleshooter_Designation">
+      <End Role="Designation" EntitySet="Designation" />
+      <End Role="Troubleshooter" EntitySet="Troubleshooter" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Troubleshooter_FaultType" Association="Self.FK_Troubleshooter_FaultType">
+      <End Role="FaultType" EntitySet="FaultType" />
+      <End Role="Troubleshooter" EntitySet="Troubleshooter" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Troubleshooter_Team" Association="Self.FK_Troubleshooter_Team">
+      <End Role="Team" EntitySet="Team" />
+      <End Role="Troubleshooter" EntitySet="Troubleshooter" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Troubleshooter_TroubleshooterManager" Association="Self.FK_Troubleshooter_TroubleshooterManager">
+      <End Role="TroubleshooterManager" EntitySet="TroubleshooterManager" />
+      <End Role="Troubleshooter" EntitySet="Troubleshooter" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

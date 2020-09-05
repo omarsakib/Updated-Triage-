@@ -1,0 +1,329 @@
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\ApplicationInsights.config
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\csc.exe
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\System.Collections.Immutable.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\vbc.exe
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\VBCSCompiler.exe
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\VBCSCompiler.exe.config
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\FaultTrage_Test2.dll.config
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\FaultTrage_Test2.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\FaultTrage_Test2.pdb
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Antlr3.Runtime.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\EntityFramework.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\EntityFramework.SqlServer.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.Web.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.WindowsServer.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.ApplicationInsights.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Google.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Web.Infrastructure.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Newtonsoft.Json.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Owin.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Helpers.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Mvc.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Optimization.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Razor.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.WebPages.Deployment.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.WebPages.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.WebPages.Razor.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\WebGrease.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.Web.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.WindowsServer.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.ApplicationInsights.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Helpers.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Mvc.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Optimization.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Razor.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.WebPages.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.WebPages.Deployment.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.WebPages.Razor.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Antlr3.Runtime.pdb
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Newtonsoft.Json.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\EntityFramework.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\EntityFramework.SqlServer.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Google.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\obj\Debug\FaultTrage_Test2.csprojResolveAssemblyReference.cache
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\obj\Debug\FaultTrage_Test2.dll
+c:\users\abdullah.sakib\documents\visual studio 2015\Projects\FaultTrage_Test2\FaultTrage_Test2\obj\Debug\FaultTrage_Test2.pdb
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\ApplicationInsights.config
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\csc.exe
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\System.Collections.Immutable.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\System.Reflection.Metadata.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\vbc.exe
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\VBCSCompiler.exe
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\VBCSCompiler.exe.config
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\FaultTrage_Test2.dll.config
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\FaultTrage_Test2.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\FaultTrage_Test2.pdb
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Antlr3.Runtime.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\EntityFramework.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\EntityFramework.SqlServer.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.DependencyCollector.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.Web.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.WindowsServer.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.ApplicationInsights.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Google.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Web.Infrastructure.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Newtonsoft.Json.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Owin.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Helpers.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Mvc.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Optimization.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Razor.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.WebPages.Deployment.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.WebPages.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.WebPages.Razor.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\WebGrease.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.DependencyCollector.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.Web.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.WindowsServer.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.ApplicationInsights.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Helpers.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Mvc.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Optimization.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Razor.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.WebPages.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.WebPages.Deployment.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.WebPages.Razor.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Antlr3.Runtime.pdb
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Newtonsoft.Json.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\EntityFramework.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\EntityFramework.SqlServer.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Google.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\obj\Debug\FaultTrage_Test2.csprojResolveAssemblyReference.cache
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\obj\Debug\FaultTrage_Test2.dll
+F:\Projects\FaultTrage_Test2\FaultTrage_Test2\obj\Debug\FaultTrage_Test2.pdb
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\ApplicationInsights.config
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\csc.exe
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\System.Collections.Immutable.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\System.Reflection.Metadata.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\vbc.exe
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\VBCSCompiler.exe
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\VBCSCompiler.exe.config
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\FaultTrage_Test2.dll.config
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\FaultTrage_Test2.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\FaultTrage_Test2.pdb
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Antlr3.Runtime.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\EntityFramework.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\EntityFramework.SqlServer.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.DependencyCollector.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.Web.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.WindowsServer.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.ApplicationInsights.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Google.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Web.Infrastructure.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Newtonsoft.Json.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Owin.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Helpers.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Mvc.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Optimization.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Razor.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.WebPages.Deployment.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.WebPages.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.WebPages.Razor.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\WebGrease.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.DependencyCollector.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.Web.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.WindowsServer.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.ApplicationInsights.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Helpers.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Mvc.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Optimization.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Razor.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.WebPages.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.WebPages.Deployment.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.WebPages.Razor.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Antlr3.Runtime.pdb
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Newtonsoft.Json.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\EntityFramework.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\EntityFramework.SqlServer.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Google.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\obj\Debug\FaultTrage_Test2.csprojAssemblyReference.cache
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\obj\Debug\FaultTrage_Test2.csproj.CopyComplete
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\obj\Debug\FaultTrage_Test2.dll
+E:\Abir\Work Space\Zeba\Project 1\Project\FaultTrage_Test2\FaultTrage_Test2\obj\Debug\FaultTrage_Test2.pdb
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\ApplicationInsights.config
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\csc.exe
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\System.Collections.Immutable.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\System.Reflection.Metadata.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\vbc.exe
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\VBCSCompiler.exe
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\roslyn\VBCSCompiler.exe.config
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\FaultTrage_Test2.dll.config
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\FaultTrage_Test2.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\FaultTrage_Test2.pdb
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Antlr3.Runtime.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\EntityFramework.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\EntityFramework.SqlServer.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.DependencyCollector.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.Web.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.WindowsServer.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.ApplicationInsights.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Google.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Web.Infrastructure.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Newtonsoft.Json.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Owin.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Helpers.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Mvc.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Optimization.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Razor.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.WebPages.Deployment.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.WebPages.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.WebPages.Razor.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\WebGrease.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.DependencyCollector.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.Web.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AI.WindowsServer.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.ApplicationInsights.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Helpers.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Mvc.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Optimization.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.Razor.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.WebPages.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.WebPages.Deployment.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\System.Web.WebPages.Razor.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Antlr3.Runtime.pdb
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Newtonsoft.Json.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\EntityFramework.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\EntityFramework.SqlServer.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Google.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\obj\Debug\FaultTrage_Test2.csprojResolveAssemblyReference.cache
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\obj\Debug\FaultTrage_Test2.dll
+F:\Presentation Guide\Project\FaultTrage_Test2\FaultTrage_Test2\obj\Debug\FaultTrage_Test2.pdb
